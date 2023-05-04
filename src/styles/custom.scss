@@ -1,0 +1,16 @@
+
+$theme-colors: (
+    'primary':rgb(51, 255, 0),
+
+);
+$btn-primary:rgb(175, 82, 82);
+
+p {
+    background-color: blue;
+}
+
+a {
+    color: aqua;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
