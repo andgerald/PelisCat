@@ -1,13 +1,4 @@
-import '../../styles/components/MovieDetails.css';
-import { Button } from 'react-bootstrap';
+import '../../styles/components/movieDetails/MovieDetails.css';
 export const MovieDetails = () => {
-    return (
-        <>
-        <div className="backgroundMovie">
-        <Button type="button" variant="primary">Primary</Button>
-        <p>hola</p>
-      </div>
-        </>
-      
-    )
-  }
+  return <div className="backgroundMovie"></div>;
+};
