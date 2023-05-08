@@ -1,10 +1,8 @@
-import './App.css';
-import Main from './Routes';
+import "./App.css";
+import Main from "./Routes";
 
 function App() {
-  return (
-    <Main/>
-  );
+  return <Main />;
 }
 
 export default App;
