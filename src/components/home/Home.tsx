@@ -5,9 +5,12 @@ import '../../styles/components/Home.css';
 
 export const Home = () => {
   return (
-    <div className="homeContainer">
-      <MostRecentMovie />
-      <AllMovies />
-    </div>
+    <>
+      <div className="navProvisorio p-4">AQUI VA EL NAV</div>
+      <div className="homeContainer pt-4">
+        <MostRecentMovie />
+        <AllMovies />
+      </div>
+    </>
   );
 };

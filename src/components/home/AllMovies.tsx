@@ -1,21 +1,14 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
-
+import AllMoviesNav from './AllMovies/AllMoviesNav';
+import AllMoviesContainer from './AllMovies/AllMoviesContainer';
+import './../../styles/components/Home.css';
 const AllMovies = () => {
   return (
-    <div>
-      <Nav variant="pills" defaultActiveKey="/home" className="ps-5">
-        <Nav.Item>
-          <Nav.Link href="/home">TENDENCIAS</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">ESTRENOS</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">RECOMENDACIONES</Nav.Link>
-        </Nav.Item>
-        <Nav.Item></Nav.Item>
-      </Nav>
+    <div className="p-3 m-3">
+      <AllMoviesNav />
+      <div className="p-4">
+        <AllMoviesContainer />
+      </div>
     </div>
   );
 };

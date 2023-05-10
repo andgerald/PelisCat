@@ -1,6 +1,10 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
 .principalImage{
     width: 90vw;
-    height: 60vh;
+    height: 70vh;
     background-color: #C4C4C4 ;
 }
 
@@ -8,4 +12,24 @@
     background-color:#021222;
     width: 100%;
     height: 100vh;
+    overflow-y:scroll
+
+}
+
+.moviesContainer{
+    background-color: #C4C4C4;
+    width: 90vw;
+    height: 100vh;
+}
+
+.navProvisorio{
+    background-color: #033261;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+    border-color: #d45500;
+    border-bottom-color: transparent;
+}
+.nav-tabs {
+   border-bottom: 1px solid #d45500;
 }
